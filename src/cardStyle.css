@@ -1,0 +1,29 @@
+.card-container{
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid white;
+    transition: transform 0.1s;
+}
+.card-container:hover{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+.card-content
+{
+    text-align: center;
+}
+.card-btn{
+    text-align: center;
+}
+.card-btn a{
+    display: block;
+    border: 1px solid cornflowerblue;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}

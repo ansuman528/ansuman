@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.Card-Container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: antiquewhite;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media (max-width:767px) {
+    .Card-Container{
+       display: grid;
+       grid-template-columns: auto auto; 
+    }
+}
+@media (max-width:456px) {
+    .Card-Container{
+       display: grid;
+       grid-template-columns: auto; 
+    }
+}
